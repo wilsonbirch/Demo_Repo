@@ -1,0 +1,87 @@
+/* reset ensures the paragraph begins in the top left*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*body tag changes background color, font and font colour across all input text for the body*/
+body {
+
+    background-color: #efeee7;
+    font: Georgia,"Times New Roman",Times,serif;
+    color: #333333;
+
+}
+
+/* change header background color*/
+header{
+    height: 42px;
+    background-color: #333333;
+}
+
+/*change font color, alignment and size for "Student Bio" in the header at the top of the page*/
+h1{
+
+    color:#eee;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+/*state font size and alignment for student name "Wilson Birch"*/
+h2{
+
+    font-size: 24px;
+    text-align: left;
+}
+
+/*give container class text a width, margin and alignment*/
+.container{
+
+    margin: 0 auto;
+    width: 1024px;
+    align-items: center;
+}
+
+/*float left tag brings the paragraph of text up from below the image to beside it, 70% of width of container*/
+#main-bio{
+
+    float: left;
+    width: 70% ;
+}
+
+/*align text for cleanliness, padding on the right hand side ensures no overlap with the unordered list*/
+p{
+    text-align: justify;
+    padding-right: 50px;
+}
+
+/*float tag brings it up from below the image to the right side, width 30% of container, top padding brings it away from "Contact Info"*/
+#contact-info{
+
+    float: left;
+    width: 30%;
+    padding-top: 25px;
+}
+
+/* image width and float set as well as right and left paddding*/
+#bio-image{
+
+    float: left;
+    width: 200px;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+/*padding required for space between the contact info title and the list below*/
+#list{
+
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+/*changes all link text to required colour*/
+a{
+
+    color: #d21034;
+}
